@@ -14,6 +14,7 @@
 
        <video id="v1" src="video/1.mp4"></video>
        <video id="v2" src="video/2.mp4"></video>
+       <video id="v3" src="video/3.mp4"></video>
 
 
     </a-assets>
@@ -41,6 +42,39 @@
                event-set__2="_event: mouseenter; material.pause: false;"
               >
        </a-entity>
+       <a-entity geometry="primitive:plane;width:16;height:9;" scale=".5 .5" rotation="0 -90 0" position="15 3 0" material="src:#v3;shader:video"
+                event-set__1="_event: mouseleave; material.pause: true;"
+                event-set__2="_event: mouseenter; material.pause: false;"
+               >
+        </a-entity>
+        <a-entity geometry="primitive:plane;width:17;height:10;" scale=".5 .5" rotation="0 -90 0" position="15.05 3 0" material="color: white; opacity: .3"
+                 event-set__1="_event: mouseleave; material.pause: true;"
+                 event-set__2="_event: mouseenter; material.pause: false;"
+                >
+         </a-entity>
+
+<!-- R video, txt -->
+         <a-entity id="txt">
+               <a-entity width="5" text="text: Welcome to interactive deep web map.; size: .3" material="color: white" position="15 7.3 -4" rotation="0 -90 0"
+
+                     >
+
+               </a-entity>
+               <a-entity width="5" text="text: If you want to see it, please download Zappar application ; size: .3" material="color: white" position="15 6.8 -4" rotation="0 -90 0"
+
+                     ></a-entity>
+                <a-entity width="5" text="text: and start your travel through deep web world.; size: .3" material="color: white" position="15 6.3 -4" rotation="0 -90 0"
+
+                           >
+
+               </a-entity>
+               <a-entity width="5" text="text: Enjoy!; size: .3" material="color: white" position="15 5.8 -4" rotation="0 -90 0"
+
+                     >
+
+               </a-entity>
+
+          </a-entity>
 
 
 
