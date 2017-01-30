@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://rust-co.github.io/ljubicice/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rust-co.github.io/ljubicice/work/lju-1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rust-co.github.io/ljubicice/work/lju-2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rust-co.github.io/ljubicice/work/lju-3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rust-co.github.io/ljubicice/work/lju-4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rust-co.github.io/ljubicice/work/lju-5/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rust-co.github.io/ljubicice/work/lju-6/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rust-co.github.io/ljubicice/work/lju-7/</loc>
+  </url>
+  
+</urlset>
